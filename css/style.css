@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+}
+
+.registrationform {
+    display: flex;  
+    box-shadow: 20px 20px 20px darkgray;
+    justify-content: center;
+  
+}
+
+.registration{
+    flex: 1;
+    padding: 30px;
+    justify-content: center;
+
+   }
+
+.container {
+    display: flex; 
+    justify-content: center;   
+    background-color: rgb(211, 211, 211);
+    color: black;   
+    border: 0;
+    flex: 1;
+}
+
+.form1 {
+    flex: 2;
+    justify-content: center;
+    background-color: white;
+    color: black;    
+}
+
+.btn {
+    width: 100px;
+    justify-content: center;
+    background-color: rgb(19, 193, 205);
+    color: white;   
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+}
+
+.img{
+   
+}
