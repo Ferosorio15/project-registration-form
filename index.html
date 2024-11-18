@@ -5,37 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Nunito:wght@200..1000&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>  
-    <div class="registrationform">
 
-    <div class="registration container">
-    <img src="assets/yollo-logo.svg" alt="logo">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur? Alias dolorum nisi maiores in labore temporibus at veniam voluptas qui, 
-        deleniti atque? Deserunt cupiditate quisquam ipsum ducimus magni suscipit. </p>
-    <button class="btn" type="log-in">Log In</button>
-         
-    <div class="registration form1">
-        <h1>Registration Form</h1>
-        <form>
-            <label for="name">First Name</label><br>
-            <input type="text" id="name"><br>
-            <br>
-            <label for="lastname">Last Name</label><br>
-            <input type="text" id="lastname">
-            <br>
-            <label for="email">Email: </label><br>
-            <input type="email" id="email"><br>
-            <br>
-            <label for="password">Password: </label>
-            <input type="text" id="password" size="20" maxlength="8">
-            <br>
-            <input type="checkbox" id="terms" name="terms">
-            <label for="terms">I agree with the terms and conditions</label> <br>
-            <button class="btn" type="register">Register</button>
-        </form>
+<body>
+    <div class="container">
+        <main class="main">
+            <div class="section">
+                <article class="article">
+                    <div class="image">
+                        <img src="assets/yollo-logo.svg" alt="logo">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur? Alias dolorum
+                        nisi maiores in labore temporibus at veniam voluptas qui,
+                        deleniti atque? Deserunt cupiditate quisquam ipsum ducimus magni suscipit.
+                    </p>
+                    <button class="btn" type="log-in" id="log-in">Log In</button>
+                </article>
+            </div>
+
+            <aside class="sidebar">
+                <div class="registrationform">
+                    <h1>Registration Form</h1>
+                    <form>
+                        <div class="fullname">
+                            <div class="name">
+                                <label for="first">First Name</label>
+                                <input type="text" id="first" class="first">
+                            </div>
+                            <div class="name">
+                                <label for="last">Last Name</label>
+                                <input type="text" id="last" class="last">
+                            </div>
+                        </div>
+                        <label for="email">Email: </label><br>
+                        <input type="email" id="email" class="email">
+                        <br>
+                        <label for="password">Password: </label>
+                        <input type="text" id="password" class="password" size="20" maxlength="8">
+                        <br>
+                        <input type="checkbox" id="terms" name="terms" class="terms">
+                        <label for="terms">I agree with the <a href="#">terms and conditions</a> </label>  
+                        <br>
+                        
+                        <button class="btn" id="register" type="register">Register</button>
+                    </form>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+
+
 </body>
 
 </html>
